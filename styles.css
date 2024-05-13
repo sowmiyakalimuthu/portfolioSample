@@ -1,0 +1,133 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3{
+      color:  rgb(250, 122, 75);
+  }
+  h3{
+      font-size: 1.5rem;
+  }
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(250, 122, 75);
+    color: white;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    float: right;
+    margin-right: 20px;
+  }
+  
+  #navbar li {
+    display: inline;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 17px;
+    font-size: 1.2rem;
+  }
+  #navbar a:hover {
+    text-decoration: none;
+    background-color: #333;
+  }
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+  }
+  .name{
+      color:white;
+      font-size: 2.5rem;
+  }
+  .description{
+      font-family:serif;
+      font-weight: 10;
+  }
+  #projects {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(215, 213, 213);
+  }
+  #projects h2{
+      font-size: 1.8rem;
+      color:#333;
+  }
+  .projectsBody{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+  .project-tile {
+    border: 1px solid #333;
+    background-color:  #333;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+  }
+  .project-tile img{
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      margin-bottom: 30px;
+  }
+  .project-tile a {
+    text-decoration: none;
+    color: #333;
+    background-color:white;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px 1px #605f5f;
+  }
+  .project-tile a:hover{
+      color: rgb(250, 122, 75);
+  }
+  @media screen and (max-width: 600px) {
+    #navbar ul {
+      text-align: center;
+      float: none;
+    }
+  }
+  #contact{
+      padding: 35vh 0;
+      text-align: center;
+      background-color:#333;
+      border-bottom:5px solid  rgb(250, 122, 75);
+  }
+  #contact h1{
+      font-size: 4rem;
+  }
+  #contact button{
+      background: transparent;
+      border: none;
+      transition: transform 0.3s ease-out;
+  }
+  #contact a{
+      text-decoration: none;
+    color: white;
+    padding: 17px;
+    font-size: 1.5rem;
+  }
+  #contact button:hover{
+      transform: translateY(-8px);
+  }
+  footer{
+      background-color:#333;
+      padding: 10px 0;
+      text-align: center;
+      color: rgb(179, 178, 178);
+      font-style: italic;
+  }
